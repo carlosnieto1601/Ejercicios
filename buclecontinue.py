@@ -16,3 +16,14 @@ for i in nombre:
     contador+=1
 print(contador)
 
+
+
+email=input("Introduce tu email, por favor: ")
+for i in email:
+    if i=="@":
+        arroba=True
+        break;
+else:
+    arroba=False
+
+print(arroba)
